@@ -21,8 +21,8 @@ const Text = styled.p`
   text-align: center;
 `
 
-const NotFoundPage = () => (
-  <Layout location={this.props.location} noCover={true}>
+const NotFoundPage = ({location}) => (
+  <Layout location={location} noCover={true}>
     <SEO title="Page Not Found" />
     <Hero heroImg="/images/404.jpeg" title="404" />
     <Wrapper>
