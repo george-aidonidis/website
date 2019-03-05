@@ -7,10 +7,11 @@
   "author": {
     "name": "George Aidonidis",
     "email": "georgeaidonidis@gmail.com",
-    "url": "https://georgeaidonidis.com"
+    "url": "https://iamgeorge.dev"
   },
   "scripts": {
     "build": "gatsby build",
+    "now-build": "yarn run build",
     "dev": "gatsby develop",
     "start": "npm run develop",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
@@ -24,7 +25,7 @@
     "babel-plugin-styled-components": "^1.10.0",
     "gatsby": "^2.0.53",
     "gatsby-image": "^2.0.20",
-    "gatsby-plugin-google-analytics": "^2.0.8",
+    "gatsby-plugin-google-analytics": "^2.0.15",
     "gatsby-plugin-manifest": "^2.0.9",
     "gatsby-plugin-offline": "^2.0.16",
     "gatsby-plugin-react-helmet": "^3.0.2",

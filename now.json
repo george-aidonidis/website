@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "name": "website",
+  "alias": "iamgeorge.dev",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/static-build",
+      "config": {
+        "distDir": "public"
+      }
+    }
+  ]
+}
