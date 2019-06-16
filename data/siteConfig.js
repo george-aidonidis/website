@@ -4,7 +4,7 @@ module.exports = {
   authorName: 'George Aidonidis',
   twitterUsername: 'geoaido',
   githubUsername: 'George-Aidonidis',
-  authorAvatar: '/images/avatar.jpeg',
+  authorAvatar: '/images/avatar.jpg',
   authorDescription: `Software Developer 👨‍💻. Currently working as a frontend developer and in ❤️ with <strong>Javascript & React.</strong>`,
   skills: [
     {

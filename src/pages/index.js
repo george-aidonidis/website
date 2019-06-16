@@ -30,7 +30,7 @@ const Home = ({className, location}) => (
           <Col xs={4} className="avatar">
             <img
               className="avatar__image"
-              src="/images/avatar.jpeg"
+              src="/images/avatar.jpg"
               alt="user avatar"
             />
             <div className="social">
