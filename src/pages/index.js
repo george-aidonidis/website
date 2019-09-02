@@ -17,7 +17,7 @@ const Separator = styled.hr`
   margin-bottom: 16px;
 `
 
-const title = `Hi! I'm George!`
+const title = `Hi, I'm George!`
 const Home = ({className, location}) => (
   <Layout location={location}>
     <SEO title={title} keywords={['gatsbyjs', 'react', 'curriculum']} />
