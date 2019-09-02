@@ -5,7 +5,10 @@ module.exports = {
   twitterUsername: 'geoaido',
   githubUsername: 'George-Aidonidis',
   authorAvatar: '/images/avatar.jpg',
-  authorDescription: `Software Developer 👨‍💻. Currently working as a frontend developer and in ❤️ with <strong>Javascript & React.</strong>`,
+  authorDescription: `Software Developer 👨‍💻. Currently working as a frontend developer and in ❤️ with <strong>Javascript & React.</strong>
+        Occasionally drafting random thoughts at
+        <a href="https://dunno.tech">dunno.tech</a>
+	`,
   skills: [
     {
       name: 'HTML',
@@ -40,7 +43,7 @@ module.exports = {
         year: '2019',
       },
       duration: null,
-      occupation: 'Frontend Javascript Developer',
+      occupation: 'Senior Frontend Engineer',
       description:
         'Writing React & JS frontend reusable components and web applications.',
     },
@@ -64,7 +67,18 @@ module.exports = {
       duration: '2 years & 2 months',
       occupation: 'Software Engineer',
       description:
-        'Started building Windows & Windows Phone applications eventually focused on Javascript mobile & web applications',
+        'Started building Windows & Windows Phone applications eventually focused on Javascript mobile & web applications.',
+    },
+    {
+      company: 'OTE',
+      begin: {
+        month: 'Mar',
+        year: '2014',
+      },
+      duration: '6 months',
+      occupation: 'Lab Assistant',
+      description:
+        'Developed a product management application to automate shipping/maintaining procedures for company’s networking products.',
     },
     /* ... */
   ],
