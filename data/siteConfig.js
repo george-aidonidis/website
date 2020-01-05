@@ -37,15 +37,25 @@ module.exports = {
   ],
   jobs: [
     {
+      company: 'Toptal',
+      begin: {
+        month: 'Dec',
+        year: '2019',
+      },
+      duration: null,
+      occupation: 'Senior Frontend Engineer',
+      description: `Extracting small web components to be used by Toptal's main platform.`,
+    },
+    {
       company: 'Omilia LTD',
       begin: {
         month: 'Mar',
         year: '2019',
       },
-      duration: null,
+      duration: '8 months',
       occupation: 'Senior Frontend Engineer',
       description:
-        'Writing React & JS frontend reusable components and web applications.',
+        'Developed React & JS frontend reusable components and web applications.',
     },
     {
       company: 'TheChatShop',
@@ -56,7 +66,7 @@ module.exports = {
       duration: '1 year & 11 months',
       occupation: 'Fullstack Javascript Developer',
       description:
-        'Development and maintenance, corrective and preventive, of web applications for the real estate market.',
+        'Development and maintenance of web applications for the chat industry.',
     },
     {
       company: 'Ortec',
