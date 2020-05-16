@@ -7,7 +7,7 @@ module.exports = {
   authorAvatar: '/images/avatar.jpg',
   authorDescription: `Software Developer 👨‍💻. Currently working as a frontend developer and in ❤️ with <strong>Javascript & React.</strong>
         Occasionally drafting random thoughts at
-        <a href="https://dunno.tech">dunno.tech</a>
+        <a href="https://dunno-blog.now.sh">dunno-blog</a>
 	`,
   skills: [
     {
