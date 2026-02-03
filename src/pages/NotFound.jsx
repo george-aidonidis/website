@@ -4,9 +4,8 @@ import styled from 'styled-components'
 import Layout from '../components/layout'
 import Hero from '../components/hero'
 import Wrapper from '../components/wrapper'
-import SEO from '../components/SEO'
 
-const MainTitle = styled.h1`
+const MainTitle = styled.h2`
   line-height: 1.5;
   text-align: center;
   font-size: 3rem;
@@ -21,9 +20,8 @@ const Text = styled.p`
   text-align: center;
 `
 
-const NotFoundPage = ({location}) => (
-  <Layout location={location} noCover={true}>
-    <SEO title="Page Not Found" />
+const NotFoundPage = () => (
+  <Layout>
     <Hero heroImg="/images/404.jpeg" title="404" />
     <Wrapper>
       <MainTitle>404 Page Not Found</MainTitle>

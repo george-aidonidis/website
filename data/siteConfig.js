@@ -1,40 +1,13 @@
-module.exports = {
+export default {
   siteTitle: 'George',
-  siteDescription: `Hi there`,
+  siteDescription: 'Hi there',
   authorName: 'George Aidonidis',
-  twitterUsername: 'geoaido',
   githubUsername: 'George-Aidonidis',
   authorAvatar: '/images/avatar.jpg',
   authorDescription: `Software Developer 👨‍💻. Currently working as a frontend developer and in ❤️ with <strong>Javascript & React.</strong>
         Occasionally drafting random thoughts at
         <a href="https://dunno-blog.now.sh">dunno-blog</a>
 	`,
-  skills: [
-    {
-      name: 'HTML',
-      level: 70,
-    },
-    {
-      name: 'CSS',
-      level: 60,
-    },
-    {
-      name: 'Javascript',
-      level: 50,
-    },
-    {
-      name: 'NodeJs',
-      level: 40,
-    },
-    {
-      name: 'React',
-      level: 60,
-    },
-    {
-      name: 'Git',
-      level: 70,
-    },
-  ],
   jobs: [
     {
       company: 'Toptal',
@@ -88,9 +61,8 @@ module.exports = {
       duration: '6 months',
       occupation: 'Lab Assistant',
       description:
-        'Developed a product management application to automate shipping/maintaining procedures for company’s networking products.',
+        'Developed a product management application to automate shipping/maintaining procedures for company\'s networking products.',
     },
-    /* ... */
   ],
   social: {
     twitter: 'https://twitter.com/geoaido',
@@ -99,13 +71,7 @@ module.exports = {
     email: 'george.aidonidis@gmail.com',
   },
   siteUrl: 'https://iamgeorge.dev',
-  pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.jpeg',
-  googleAnalyticsId: process.env.GOOGLE_ID,
-  background_color: '#ffffff',
-  theme_color: '#4B0082',
-  display: 'minimal-ui',
-  icon: 'src/assets/favico.png',
   headerLinks: [
     {
       label: 'George Aidonidis',

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Loader = ({className}) => {
+const Loader = ({ className }) => {
   return (
     <div className={className}>
       <div />
