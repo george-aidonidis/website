@@ -1,6 +1,4 @@
 import React from 'react'
-import {withPrefix} from 'gatsby'
-import siteConfig from '../../../data/siteConfig'
 import styled from 'styled-components'
 
 const HeroContainer = styled.div`
@@ -28,7 +26,7 @@ const HeroTitle = styled.h1`
   text-shadow: 1px 1px 4px rgba(34, 34, 34, 0.6);
 `
 
-const Hero = ({title, className}) => (
+const Hero = ({ title, className }) => (
   <HeroContainer className={className}>
     <TitleContainer>
       <HeroTitle>{title}</HeroTitle>
@@ -37,8 +35,7 @@ const Hero = ({title, className}) => (
 )
 
 export default styled(Hero)`
-  ${p =>
-    `background-image: url(${p.heroImg || withPrefix(siteConfig.siteCover)});`}
+  ${(p) => `background-image: url(${p.heroImg});`}
   height: 70vh;
   background-attachment: fixed;
   background-position: center;

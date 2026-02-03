@@ -1,14 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
-import {config} from 'react-awesome-styled-grid'
 import siteConfig from '../../../data/siteConfig'
 
 const Timeline = ({className}) => {
   return (
     <div className={className}>
-      <h1>Experience</h1>
+      <h2>Experience</h2>
       {siteConfig.jobs &&
-        siteConfig.jobs.map(job => (
+        siteConfig.jobs.map((job) => (
           <article
             key={job.begin.month + job.begin.year}
             className="timeline__item"
@@ -97,6 +96,7 @@ export default styled(Timeline)`
     text-transform: uppercase;
     border-radius: 3px 3px 0 0;
     position: relative;
+    background: #25303b;
   }
   .timeline__title:after {
     content: '';
@@ -106,6 +106,7 @@ export default styled(Timeline)`
     width: 10px;
     height: 10px;
     transform: rotate(-45deg);
+    background: #25303b;
   }
   .timeline__item div.inner p {
     padding: 15px;
@@ -118,31 +119,24 @@ export default styled(Timeline)`
   .timeline__item:nth-child(2n + 2) div.inner {
     float: right;
   }
-  .timeline__title {
-    background: #25303b;
-  }
-  .timeline__title:after {
-    background: #25303b;
-  }
 
   .timeline__title--small {
     font-size: 10px;
   }
 
-  ${p => config().media['sm']`
-  .timeline__item div.inner {
-    width: 40%;
-    margin: 5px 0 0 0;
-  }
+  @media (min-width: 576px) {
+    .timeline__item div.inner {
+      width: 40%;
+      margin: 5px 0 0 0;
+    }
 
-  .timeline__item div.inner h2:after {
-    top: 20px;
-    left: unset;
-    right: -5px;
+    .timeline__item div.inner h2:after {
+      top: 20px;
+      left: unset;
+      right: -5px;
+    }
+    .timeline__item:nth-child(2n + 2) div.inner h2:after {
+      left: -5px;
+    }
   }
-  .timeline__item:nth-child(2n+2) div.inner h2:after {
-    left: -5px;
-  }
-
-  `}
 `
